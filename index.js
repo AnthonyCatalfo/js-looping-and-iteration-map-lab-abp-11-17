@@ -13,3 +13,7 @@ return firstLast;
 function nameToAttributes(drivers){
 return drivers.map(splitFullName);
 }
+function attributesToPhrase(drivers){
+return drivers.map((driver) => {
+    return driver.name +" is from "+driver.hometown})
+  }
